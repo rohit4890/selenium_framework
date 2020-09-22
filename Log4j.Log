@@ -1,0 +1,76 @@
+2020-09-22 20:42:40 INFO  Log:11 - <<================verifyCarsBookingPage method started.=============================>>
+2020-09-22 20:42:41 INFO  Log:19 - Method: verifyCarsBookingPage is passed
+2020-09-22 20:42:41 INFO  Log:15 - <<==================verifyCarsBookingPage method ended.=============================>>
+
+2020-09-22 20:42:50 INFO  Log:11 - <<================verifyFlightlBookingPage method started.=============================>>
+2020-09-22 20:42:51 INFO  Log:19 - Method: verifyFlightlBookingPage is passed
+2020-09-22 20:42:51 INFO  Log:15 - <<==================verifyFlightlBookingPage method ended.=============================>>
+
+2020-09-22 20:43:00 INFO  Log:11 - <<================verifyHotelBookingPage method started.=============================>>
+2020-09-22 20:43:01 INFO  Log:19 - Method: verifyHotelBookingPage is passed
+2020-09-22 20:43:01 INFO  Log:15 - <<==================verifyHotelBookingPage method ended.=============================>>
+
+2020-09-22 20:43:10 INFO  Log:11 - <<================verifyMainPage method started.=============================>>
+2020-09-22 20:43:10 INFO  Log:19 - Method: verifyMainPage is passed
+2020-09-22 20:43:10 INFO  Log:15 - <<==================verifyMainPage method ended.=============================>>
+
+2020-09-22 20:43:21 INFO  Log:11 - <<================doHotelBooking method started.=============================>>
+2020-09-22 20:43:21 INFO  Log:19 - doHotelBooking method executed with test data
+2020-09-22 20:43:21 INFO  Log:19 - city: sydney
+2020-09-22 20:43:21 INFO  Log:19 - city: Sydney Olympic Park
+2020-09-22 20:43:21 INFO  Log:19 - city: 22
+2020-09-22 20:43:21 INFO  Log:19 - city: 8
+2020-09-22 20:43:32 INFO  Log:19 - Method: doHotelBooking is passed
+2020-09-22 20:43:32 INFO  Log:15 - <<==================doHotelBooking method ended.=============================>>
+
+2020-09-22 20:43:43 INFO  Log:11 - <<================doHotelBooking method started.=============================>>
+2020-09-22 20:43:43 INFO  Log:19 - doHotelBooking method executed with test data
+2020-09-22 20:43:43 INFO  Log:19 - city: sydney
+2020-09-22 20:43:43 INFO  Log:19 - city: Darling Harbour
+2020-09-22 20:43:43 INFO  Log:19 - city: 25
+2020-09-22 20:43:43 INFO  Log:19 - city: 10
+2020-09-22 20:43:57 INFO  Log:19 - Method: doHotelBooking is passed
+2020-09-22 20:43:57 INFO  Log:15 - <<==================doHotelBooking method ended.=============================>>
+
+2020-09-22 20:44:07 INFO  Log:11 - <<================doHotelBooking method started.=============================>>
+2020-09-22 20:44:07 INFO  Log:19 - doHotelBooking method executed with test data
+2020-09-22 20:44:07 INFO  Log:19 - city: sydney
+2020-09-22 20:44:07 INFO  Log:19 - city: Sydney Olympic Park
+2020-09-22 20:44:07 INFO  Log:19 - city: 26
+2020-09-22 20:44:07 INFO  Log:19 - city: 12
+2020-09-22 20:44:19 INFO  Log:19 - Method: doHotelBooking is passed
+2020-09-22 20:44:19 INFO  Log:15 - <<==================doHotelBooking method ended.=============================>>
+2020-09-22 20:55:10 INFO  Log:11 - <<================doHotelBooking method started.=============================>>
+2020-09-22 20:55:10 INFO  Log:19 - doHotelBooking method executed with test data
+2020-09-22 20:55:10 INFO  Log:19 - city: sydney
+2020-09-22 20:55:10 INFO  Log:19 - city: Sydney Olympic Park
+2020-09-22 20:55:10 INFO  Log:19 - city: 22
+2020-09-22 20:55:10 INFO  Log:19 - city: 8
+2020-09-22 20:55:12 INFO  Log:11 - <<================verifyCarsBookingPage method started.=============================>>
+2020-09-22 20:55:17 INFO  Log:19 - Method: verifyCarsBookingPage is passed
+2020-09-22 20:55:17 INFO  Log:15 - <<==================verifyCarsBookingPage method ended.=============================>>
+2020-09-22 20:55:31 INFO  Log:11 - <<================verifyFlightlBookingPage method started.=============================>>
+2020-09-22 20:55:33 INFO  Log:19 - Method: verifyFlightlBookingPage is passed
+2020-09-22 20:55:33 INFO  Log:15 - <<==================verifyFlightlBookingPage method ended.=============================>>
+2020-09-22 20:55:38 INFO  Log:19 - Method: doHotelBooking is passed
+2020-09-22 20:55:38 INFO  Log:15 - <<==================doHotelBooking method ended.=============================>>
+2020-09-22 20:55:48 INFO  Log:11 - <<================verifyHotelBookingPage method started.=============================>>
+2020-09-22 20:55:51 INFO  Log:19 - Method: verifyHotelBookingPage is passed
+2020-09-22 20:55:51 INFO  Log:15 - <<==================verifyHotelBookingPage method ended.=============================>>
+2020-09-22 20:55:55 INFO  Log:11 - <<================doHotelBooking method started.=============================>>
+2020-09-22 20:55:55 INFO  Log:19 - doHotelBooking method executed with test data
+2020-09-22 20:55:55 INFO  Log:19 - city: sydney
+2020-09-22 20:55:55 INFO  Log:19 - city: Darling Harbour
+2020-09-22 20:55:55 INFO  Log:19 - city: 25
+2020-09-22 20:55:55 INFO  Log:19 - city: 10
+2020-09-22 20:56:12 INFO  Log:19 - Method: verifyMainPage is skipped
+2020-09-22 20:56:16 INFO  Log:19 - Method: doHotelBooking is passed
+2020-09-22 20:56:16 INFO  Log:15 - <<==================doHotelBooking method ended.=============================>>
+2020-09-22 20:56:28 INFO  Log:11 - <<================doHotelBooking method started.=============================>>
+2020-09-22 20:56:28 INFO  Log:19 - doHotelBooking method executed with test data
+2020-09-22 20:56:28 INFO  Log:19 - city: sydney
+2020-09-22 20:56:28 INFO  Log:19 - city: Sydney Olympic Park
+2020-09-22 20:56:28 INFO  Log:19 - city: 26
+2020-09-22 20:56:28 INFO  Log:19 - city: 12
+2020-09-22 20:56:51 INFO  Log:19 - Method: doHotelBooking is failed
+2020-09-22 20:56:51 INFO  Log:15 - <<==================doHotelBooking method ended.=============================>>

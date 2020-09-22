@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Interview Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.interview.listeners.TestListeners"/>
+  </listeners>
+  <test thread-count="2" name="Main Page Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.interview.testclasses.MainPageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyMainPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.interview.testclasses.MainPageTest -->
+    </classes>
+  </test> <!-- Main Page Test(failed) -->
+  <test thread-count="2" name="Book Hotel Page(failed)" parallel="tests">
+    <classes>
+      <class name="com.interview.testclasses.HotelPageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="doHotelBooking" invocation-numbers="2"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.interview.testclasses.HotelPageTest -->
+    </classes>
+  </test> <!-- Book Hotel Page(failed) -->
+</suite> <!-- Failed suite [Interview Suite] -->

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="0" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Interview Suite" duration-ms="117440" started-at="2020-09-22T11:24:54Z" finished-at="2020-09-22T11:26:52Z">
+    <groups>
+    </groups>
+    <test name="Main Page Test" duration-ms="77237" started-at="2020-09-22T11:24:54Z" finished-at="2020-09-22T11:26:12Z">
+      <class name="com.interview.testclasses.MainPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.interview.testclasses.MainPageTest@365c30cc]" name="setUp" is-config="true" duration-ms="17414" started-at="2020-09-22T11:24:55Z" finished-at="2020-09-22T11:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCarsBookingPage()[pri:0, instance:com.interview.testclasses.MainPageTest@365c30cc]" name="verifyCarsBookingPage" duration-ms="4563" started-at="2020-09-22T11:25:12Z" finished-at="2020-09-22T11:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCarsBookingPage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.interview.testclasses.MainPageTest@365c30cc]" name="closeBrowser" is-config="true" duration-ms="312" started-at="2020-09-22T11:25:17Z" finished-at="2020-09-22T11:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.interview.testclasses.MainPageTest@365c30cc]" name="setUp" is-config="true" duration-ms="13698" started-at="2020-09-22T11:25:17Z" finished-at="2020-09-22T11:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyFlightlBookingPage()[pri:0, instance:com.interview.testclasses.MainPageTest@365c30cc]" name="verifyFlightlBookingPage" duration-ms="2394" started-at="2020-09-22T11:25:31Z" finished-at="2020-09-22T11:25:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightlBookingPage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.interview.testclasses.MainPageTest@365c30cc]" name="closeBrowser" is-config="true" duration-ms="394" started-at="2020-09-22T11:25:33Z" finished-at="2020-09-22T11:25:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.interview.testclasses.MainPageTest@365c30cc]" name="setUp" is-config="true" duration-ms="14620" started-at="2020-09-22T11:25:33Z" finished-at="2020-09-22T11:25:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHotelBookingPage()[pri:0, instance:com.interview.testclasses.MainPageTest@365c30cc]" name="verifyHotelBookingPage" duration-ms="2647" started-at="2020-09-22T11:25:48Z" finished-at="2020-09-22T11:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHotelBookingPage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.interview.testclasses.MainPageTest@365c30cc]" name="closeBrowser" is-config="true" duration-ms="240" started-at="2020-09-22T11:25:51Z" finished-at="2020-09-22T11:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.interview.testclasses.MainPageTest@365c30cc]" name="setUp" is-config="true" duration-ms="20811" started-at="2020-09-22T11:25:51Z" finished-at="2020-09-22T11:26:12Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 13.386
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'Rohits-MBP', ip: '192.168.1.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/mx/msjml7w17ls...}, goog:chromeOptions: {debuggerAddress: localhost:54951}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 35959983cf9c18dd1cd68137b6b13a32]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 13.386
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'Rohits-MBP', ip: '192.168.1.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/mx/msjml7w17ls...}, goog:chromeOptions: {debuggerAddress: localhost:54951}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 35959983cf9c18dd1cd68137b6b13a32
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.interview.BaseTest.BaseTest.setUp(BaseTest.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyMainPage()[pri:0, instance:com.interview.testclasses.MainPageTest@365c30cc]" name="verifyMainPage" duration-ms="0" started-at="2020-09-22T11:26:12Z" finished-at="2020-09-22T11:26:12Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 13.386
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'Rohits-MBP', ip: '192.168.1.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/mx/msjml7w17ls...}, goog:chromeOptions: {debuggerAddress: localhost:54951}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 35959983cf9c18dd1cd68137b6b13a32]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 13.386
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'Rohits-MBP', ip: '192.168.1.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/mx/msjml7w17ls...}, goog:chromeOptions: {debuggerAddress: localhost:54951}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 35959983cf9c18dd1cd68137b6b13a32
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.interview.BaseTest.BaseTest.setUp(BaseTest.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainPage -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.interview.testclasses.MainPageTest@365c30cc]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-22T11:26:12Z" finished-at="2020-09-22T11:26:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.interview.testclasses.MainPageTest -->
+    </test> <!-- Main Page Test -->
+    <test name="Book Hotel Page" duration-ms="117440" started-at="2020-09-22T11:24:54Z" finished-at="2020-09-22T11:26:52Z">
+      <class name="com.interview.testclasses.HotelPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.interview.testclasses.HotelPageTest@6e38921c]" name="setUp" is-config="true" duration-ms="13227" started-at="2020-09-22T11:24:57Z" finished-at="2020-09-22T11:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="doHotelBooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.interview.testclasses.HotelPageTest@6e38921c]" name="doHotelBooking" duration-ms="27754" started-at="2020-09-22T11:25:10Z" data-provider="getTestData" finished-at="2020-09-22T11:25:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sydney Olympic Park]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doHotelBooking -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.interview.testclasses.HotelPageTest@6e38921c]" name="closeBrowser" is-config="true" duration-ms="254" started-at="2020-09-22T11:25:38Z" finished-at="2020-09-22T11:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.interview.testclasses.HotelPageTest@6e38921c]" name="setUp" is-config="true" duration-ms="16824" started-at="2020-09-22T11:25:38Z" finished-at="2020-09-22T11:25:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="doHotelBooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.interview.testclasses.HotelPageTest@6e38921c]" name="doHotelBooking" duration-ms="21589" started-at="2020-09-22T11:25:55Z" data-provider="getTestData" finished-at="2020-09-22T11:26:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Darling Harbour]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doHotelBooking -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.interview.testclasses.HotelPageTest@6e38921c]" name="closeBrowser" is-config="true" duration-ms="325" started-at="2020-09-22T11:26:16Z" finished-at="2020-09-22T11:26:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.interview.testclasses.HotelPageTest@6e38921c]" name="setUp" is-config="true" duration-ms="11632" started-at="2020-09-22T11:26:17Z" finished-at="2020-09-22T11:26:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="doHotelBooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.interview.testclasses.HotelPageTest@6e38921c]" name="doHotelBooking" duration-ms="22972" started-at="2020-09-22T11:26:28Z" data-provider="getTestData" finished-at="2020-09-22T11:26:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sydney Olympic Park]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 15.000
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'Rohits-MBP', ip: '192.168.1.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/mx/msjml7w17ls...}, goog:chromeOptions: {debuggerAddress: localhost:55064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d047571f30b9a625ce51a84a73bd7cdc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 15.000
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'Rohits-MBP', ip: '192.168.1.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/mx/msjml7w17ls...}, goog:chromeOptions: {debuggerAddress: localhost:55064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d047571f30b9a625ce51a84a73bd7cdc
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.interview.pages.HotelPage.searchHotel(HotelPage.java:74)
+at com.interview.testclasses.HotelPageTest.doHotelBooking(HotelPageTest.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doHotelBooking -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.interview.testclasses.HotelPageTest@6e38921c]" name="closeBrowser" is-config="true" duration-ms="288" started-at="2020-09-22T11:26:52Z" finished-at="2020-09-22T11:26:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.interview.testclasses.HotelPageTest -->
+    </test> <!-- Book Hotel Page -->
+  </suite> <!-- Interview Suite -->
+</testng-results>
