@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Interview Suite" parallel="tests" thread-count="2">
+<listeners>
+	<listener class-name = "com.interview.listeners.TestListeners"/>
+</listeners> 
+  <test name="Main Page Test">
+    <classes>
+      <class name="com.interview.testclasses.MainPageTest"/>
+    </classes>
+  </test>
+  <test name="Book Hotel Page">
+    <classes>
+      <class name="com.interview.testclasses.HotelPageTest"/>
+    </classes>
+  </test>
+</suite> 
+
+
+<!--  parallel="methods" thread-count="2" -->
